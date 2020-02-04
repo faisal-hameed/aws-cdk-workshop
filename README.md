@@ -13,3 +13,16 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+
+ ## CDK commands
+
+ * `cdk init`      create new project with folder structure
+ * `cdk diff`      check diffs between local files and deployed resources
+ * `cdk deploy`    deploy current resources on cloud
+
+ ### Testing AWS proxy integration
+
+ `curl https://vpcvt5j0d7.execute-api.us-east-1.amazonaws.com/prod/`  
+ It should return response like:  
+ `Hello, CDK! You've hit /`
