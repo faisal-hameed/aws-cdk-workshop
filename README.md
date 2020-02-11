@@ -1,5 +1,7 @@
 # Welcome to your CDK TypeScript project!
 
+Prerequisits : https://cdkworkshop.com/15-prerequisites/200-account.html
+
 Tutorial : https://cdkworkshop.com/20-typescript.html  
 
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CdkWorkshopStack`)
